@@ -45,26 +45,25 @@ section {
     }
     /* Column Layout */
     .content {
-        display: flex;
-        -moz-column-width: 300px;
-        -webkit-column-width: 300px;
-        column-width: 300px;
-        -moz-column-gap: 30px;
-        -webkit-column-gap: 30px;
-        column-gap: 20px;
+       display: -webkit-flex;
+       display: flex;
+       -webkit-flex-direction: row;
+       flex-direction: row;
     }
 
-    .content div {
-        display: inline-block;
+    .col-left {
+        padding: 60px 150px 60px 60px;
+        -webkit-flex: 1.5 0 0;
+        flex: 1.5 0 0;
     }
 
-    .col {
-        width: 100%;
-        padding: 40px;
+    .col-right {
+        -webkit-flex: 1 0 0;
+        flex: 1 0 0;
+        padding-top: 50px;
     }
 
     /* HackDay Mark */
-
     .icon {
         font-size: 36px;
         text-align: left;
