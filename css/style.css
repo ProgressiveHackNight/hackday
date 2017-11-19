@@ -134,10 +134,6 @@ section {
         padding: 15px 0px;
     }
 
-    .info-time-mobile {
-        display: none;
-    }
-
     .info-place {
         color: #EA235F;
         font-family: "Brandon Regular";
@@ -234,10 +230,6 @@ section {
         padding-left: 25px;
     }
 
-    .info-place {
-        border-top: 1px solid black;
-    }
-
     .schedule {
         display: none;
     }
@@ -252,6 +244,30 @@ section {
 
     .icon-background {
         left: 35px;
+    }
+
+    /* Footer */
+    .info-place {
+        border-top: 1px solid black;
+        margin-left: 25px;
+        display: inline-block;
+    }
+
+    .social-media {
+        display: none;
+    }
+
+    footer .social-media {
+        display: inline-block;
+    }
+
+    footer .social-media li {
+        display: inline-block;
+        padding-right: 15px;
+    }
+
+    footer .social-media li a {
+        color: black;
     }
 }
 
