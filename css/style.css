@@ -114,9 +114,6 @@ section {
     /* Text */
     .subheader-text {
         font-size: 24px;
-    }
-
-    .subheader-text {
         padding-bottom: 15px;
     }
 
@@ -228,7 +225,6 @@ section {
     .subheader-text {
         background: #2356AA;
         color: white;
-        width: 100%;
         padding: 7px 25px;
         clear: both;
     }
